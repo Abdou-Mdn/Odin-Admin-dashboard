@@ -2,9 +2,9 @@
 
 :root {
     --LIGHT-COLOR : #f8fafc;
-    --GRAY-COLOR : #cbd5e1; /*  #94a3b */
+    --GRAY-COLOR : #cbd5e1; 
     --TEXT-COLOR: #64748b;
-    --DARK-COLOR : #020617; /* #020617 */
+    --DARK-COLOR : #020617; 
     --DARK-COLOR-TR : #0206171f;
     --PRIMARY-COLOR : #84cc16;
     --SECONDARY-COLOR : #1a2e05;
@@ -450,8 +450,9 @@ footer p {
 @media screen and (max-width: 720px) {
     body {
         grid-template-columns: 1fr;
+        grid-template-rows: 8.5rem 1fr 2rem;
     }
-
+    
     .pfp {
         height: 3.5rem;
     }
@@ -542,6 +543,9 @@ footer p {
         cursor: pointer;
     }
 
+    header .buttons {
+        justify-content: center;
+    }
 
     main {
         grid-column: 1/2;
