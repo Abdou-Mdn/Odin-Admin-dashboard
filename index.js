@@ -7,6 +7,7 @@ const search = document.getElementById("searchBar")
 
 openSearch.addEventListener("click", () => {
     search.style.display = "block";
+    search.focus();
 })
 
 closeSearch.addEventListener("click", () => {
