@@ -488,6 +488,10 @@ footer p {
         position: relative;
     }
 
+    header section div.right {
+        padding: 0;
+    }
+
     header .username, header .name {
         display: none;
     }
@@ -498,7 +502,7 @@ footer p {
     }
 
     header #searchBtn {
-        margin-inline: 2.5rem;
+        margin-inline: 0.5rem;
     }
 
     #closeBtn:hover, #closeBtn:focus,
@@ -513,8 +517,8 @@ footer p {
         display: none;
         position: absolute;
         top: -100%;
-        left: 7.5rem;
-        width: max(50%, 180px);
+        left: 5.5rem;
+        width: max(50%, 250px);
         height: 2.5rem;
         z-index: 3;
         animation: ShowSearch 400ms ease forwards;
